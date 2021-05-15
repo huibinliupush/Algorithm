@@ -52,11 +52,9 @@ public class GetIntersectionNode {
         ListNode node2 = new ListNode(1,node3);
         ListNode node1 = new ListNode(4,node2);
 
-        ListNode node12 = new ListNode(5);
-        ListNode node11 = new ListNode(4,node12);
-        ListNode node10 = new ListNode(8,node11);
-        ListNode node9 = new ListNode(1,node10);
-        ListNode node8 = new ListNode(6,node9);
+     
+        ListNode node9 = new ListNode(1,node3);
+        ListNode node8 = new ListNode(0,node9);
         ListNode node7 = new ListNode(5,node8);
 
         GetIntersectionNode test = new GetIntersectionNode();
